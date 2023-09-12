@@ -1,17 +1,22 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-color: black;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
 /* Mis trabajos */
+
+#Mis-trabajos {
+  background-color: #0092ff;
+}
 
 #Mis-trabajos .image-top {
   height: 250px;
@@ -32,8 +37,18 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
-    width: 100px;
+  .navbar-brand {
+    width: 10px;
   }
+}
+.navbar {
+  padding: 0px;
+  background-color: #00243f;
+}
+#Acerca-de-mi {
+  color: #0092ff;
+}
 
+.Contacto h2 {
+  color: #0092ff;
 }
